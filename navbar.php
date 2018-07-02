@@ -3,11 +3,10 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="py-2" href="#"style="padding-left: 13%;color: white;">
-          <bold>AVEC RABBANI</bold>
-        </a>
 
-      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08" style="padding-left: 32%;">
+      <img class="navbar-brand" href="index.php" src="image/logo.png" alt="logo" style="width: 10%;margin-left: 12%;">
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08" style="padding-left: 27%;">
         <ul class="navbar-nav">
           
           <form class="form-inline mt-2 mt-md-0">
@@ -23,8 +22,8 @@
     <nav class="site-header sticky-top py-1">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         
-        <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+        <a class="py-2 d-none d-md-inline-block" href="index.php">Home</a>
+        <a class="py-2 d-none d-md-inline-block" href="courses.php">Courses</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
