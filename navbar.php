@@ -26,8 +26,8 @@
         <a class="py-2 d-none d-md-inline-block" href="courses.php">Courses</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+        <a class="py-2 d-none d-md-inline-block" href="team.php">Team</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
       </div>
     </nav>
