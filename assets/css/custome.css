@@ -1,0 +1,20 @@
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+a{
+    color: #000000;
+}
+
+.btn-outline-success {
+    color: #ffffff;
+    border-color: #9e9898;
+}
+.sticky-top {
+    background-color: white;
+}
+
+.modal-content {
+    position: inherit;
+    }
