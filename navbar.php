@@ -11,7 +11,7 @@
           
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <a class="btn btn-outline-success my-2 my-sm-0" href="LogInDemo.php">Log In</a>
+            <a class="btn btn-outline-success my-2 my-sm-0" href="LogInDemo.php" >Log In</a>
             <a class="btn btn-success my-2 my-sm-0" href="LogInDemo.php">Sign Up</a>
             
             
@@ -29,7 +29,7 @@
         <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
         <a class="py-2 d-none d-md-inline-block" href="team.php">Team</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
+        <a class="py-2 d-none d-md-inline-block" href="Contact.php">Contact</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
       </div>
     </nav>
