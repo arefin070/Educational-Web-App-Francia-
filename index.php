@@ -23,7 +23,7 @@
       </div>
 
 
-        <hr>
+
 
         <div class="py-5 bg-white my-5" id="features-1">
             <div class="container text-left text-center">

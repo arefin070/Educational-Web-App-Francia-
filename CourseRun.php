@@ -51,7 +51,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-left">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="CourseSelected.php"> Lesson 1</a>
                         </div>
                         <div class="media-left">
                             <div class="text-left">
@@ -178,7 +178,7 @@
                         <p class="card-subtitle">Your recent quiz</p>
                     </div>
                     <div class="media-right">
-                        <a class="btn btn-sm btn-primary" href="student-my-courses.html">Download Summary</a>
+                        <a class="btn btn-sm btn-primary" href="student-my-courses.html">Download</a>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@
 
 
 
-    <hr>
+
 
  </main>
 

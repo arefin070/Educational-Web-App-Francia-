@@ -14,8 +14,8 @@
    <div class="container" style="background-color: #e9ecef ">
 	<div class="row">
      <div class="col-md-8">
-         <div class="card-center-float" style=" height: auto;padding-left: 8%;padding-right: 8%;">
-  		    <iframe width="100%" height="400" src="https://www.youtube.com/embed/1EtI0KjXfdk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="padding-top: 2%;"></iframe>
+         <div class="card-center-float" style=" height: auto;padding-left: 8%;padding-right: 8%; padding-top: 4%; padding-bottom: 4%">
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/AdfwQXJ0ZVM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
      </div>
      <div class="col-md-4">
@@ -63,8 +63,9 @@
                                         <input type="checkbox" value="remember-me"> Remember me
                                     </label>
                                 </div>
-                                <button class="btn btn-lg btn-primary" href="courses.php" type="submit">Submit</button>
-                                <a class="text-info" href="courses.php">Please, read terms & condition carefully</a>
+                                <button class="btn btn-lg btn-primary" type="submit">Submit</button>
+                                <br>
+                                <a class="text-info" href="StartCourse.php"><small>Please, read terms & condition carefully</small></a>
                             </form>
 
 

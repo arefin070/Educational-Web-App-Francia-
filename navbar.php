@@ -25,7 +25,7 @@
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         
         <a class="py-2 d-none d-md-inline-block" href="index.php">Home</a>
-        <a class="py-2 d-none d-md-inline-block" href="courses.php">Courses</a>
+        <a class="py-2 d-none d-md-inline-block" href="AllCourses.php">Courses</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
         <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
         <a class="py-2 d-none d-md-inline-block" href="team.php">Team</a>
