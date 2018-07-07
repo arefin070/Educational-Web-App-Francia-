@@ -107,7 +107,7 @@
                 </div>
                 <div class="media-right">
                     <img src="https://cdn.kastatic.org/images/mastery/UnitTestNotStarted.svg" style="width: 100px">
-                    <a class="btn btn-primary btn-md" href="fixed-student-pay.html" > Start Quiz</a>
+                    <a class="btn btn-primary btn-md" href="quiz.php" > Start Quiz</a>
                 </div>
             </div>
         </div>
@@ -116,6 +116,24 @@
 
 
     <div class="container" style="padding-top: 6%">
+
+				<!-- Demo Course Progress -->
+				<div class="card">
+													<div class="card-header bg-white">
+															<h4 class="card-title"><a href="student-take-course.html">Learn VueJs the easy way!</a></h4>
+															<small class="text-muted">Lessons: 3 of 8</small>
+													</div>
+													<div class="progress rounded-0">
+															<div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+													</div>
+													<div class="card-footer bg-white">
+															<a href="student-take-course.html" class="btn btn-primary btn-sm">Continue <i class="material-icons btn__icon--right"></i></a>
+													</div>
+											</div>
+
+				<!-- End of Course progress-->
+
+
         <div class="card">
 
             <ul class="list-group list-group-fit mb-0">
@@ -168,84 +186,12 @@
     <!-- End Quiz -->
 
 
-    <div class="container" style="padding-top: 10%">
-        <h6 class="display-4 mb-5 pb-4 text center">Quiz Summary</h6>
-        <div class="card">
-            <div class="card-header bg-white">
-                <div class="media">
-                    <div class="media-body">
-                        <h4 class="card-title">Quiz Summary</h4>
-                        <p class="card-subtitle">Your recent quiz</p>
-                    </div>
-                    <div class="media-right">
-                        <a class="btn btn-sm btn-primary" href="student-my-courses.html">Download</a>
-                    </div>
-                </div>
-            </div>
-            <ul class="list-group list-group-fit mb-0">
-                <li class="list-group-item">
-                    <div class="media align-items-center">
-                        <div class="media-body">
-                            <a href="student-take-course.html">Quiz 1</a>
-                        </div>
-                        <div class="media-right">
-                            <div class="text-center">
-                                <div class="media-right text-center">
-                                    <h4 class="mb-0">3.9</h4>
-                                    <span class="text-muted-light">Poor</span>
-                                </div>
-                                <div class="progress" style="width: 100px;">
-                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="media align-items-center">
-                        <div class="media-body">
-                            <a href="student-take-course.html">Quiz 2</a>
-                        </div>
-                        <div class="media-right">
-                            <div class="text-center">
-                                <div class="media-right text-center">
-                                    <h4 class="mb-0">5.8</h4>
-                                    <span class="text-muted-light">Good</span>
-                                </div>
-                                <div class="progress" style="width: 100px;">
-                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="list-group-item">
-                    <div class="media align-items-center">
-                        <div class="media-body">
-                            <a href="student-take-course.html">Final Quiz</a>
-                        </div>
-                        <div class="media-right">
-                            <div class="text-center">
-                                <div class="media-right text-center">
-                                    <h4 class="mb-0">9.8</h4>
-                                    <span class="text-muted-light">Excellent</span>
-                                </div>
-                                <div class="progress" style="width: 100px;">
-                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
 
 
 
-		
-      
+
+
+
 
 
 

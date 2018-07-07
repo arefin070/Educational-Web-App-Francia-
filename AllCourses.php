@@ -89,7 +89,7 @@
             </div>
 
             <div class="container float-center">
-                <a class="btn btn-md btn-primary md-2" id="buy-button" href="index.php" target="_blank">Explore More</a>
+                <a class="btn btn-sm btn-outline-secondary" href="index.php" target="_blank">Explore More</a>
             </div>
 
 
@@ -165,7 +165,7 @@
             </div>
 
             <div class="container float-center">
-                <a class="btn btn-md btn-primary md-2" id="buy-button" href="index.php" target="_blank">Explore More</a>
+              <a class="btn btn-sm btn-outline-secondary" href="index.php" target="_blank">Explore More</a>
             </div>
 
 
@@ -243,7 +243,7 @@
                     </div>
 
                     <div class="container float-center">
-                        <a class="btn btn-md btn-primary md-2" id="buy-button" href="index.php" target="_blank">Explore More</a>
+                        <a class="btn btn-sm btn-outline-secondary" href="index.php" target="_blank">Explore More</a>
                     </div>
 
 

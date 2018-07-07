@@ -60,7 +60,7 @@
     </section>
 
 
-    <section class="py-6">
+    <section class="py-6" style="padding-top: 6%; padding-bottom: 6%">
         <div class="container">
             <header class="mb-5">
                 <h2 class="text-uppercase h5">Contact form</h2>
