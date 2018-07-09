@@ -28,22 +28,42 @@
             <!-- Modal -->
             <div id="myModal" class="modal fade" role="dialog">
                 <div class="modal-dialog">
+                  <!-- Modal content-->
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                              <h4 class="modal-title text-center"  >Enroll Request</h4>
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-                    <!-- Modal content-->
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title text-center"  >Enroll Course</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          </div>
+                                          <div class="modal-body">
+                                              <form class="form-signin">
+                                                  <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                                                  <h1 class="h4 mb-4 font-weight-normal" style="color: dimgray">Please, Fill Request Form</h1>
+                                                  <label for="inputEmail" class="sr-only">Email address</label>
+                                                  <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
 
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-																<p>Please, check your email to confirm your selected course. Thank you!</p>
-																<a class="btn btn-primary btn-md" type="button" href="CourseSelected.php" style="width: 80px">Ok</a>
-														</div>
+                                                  <label for="inputEmail" class="sr-only">Password</label>
+                                                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                                                  <button class="btn btn-md btn-primary" type="submit">Submit</button>
+                                                 <!-- <label for="inputPassword" class="sr-only">Password</label>
+                                                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                                                  <
+                                                  -->
+                                                  <h3 style="font: 3Abold"><strong><a type="button" value="or Sign Up" href="SignUp.php"></a></strong></h3>
+                                                  <div class="checkbox mb-3">
+                                                      <label>
+                                                          <input type="checkbox" value="remember-me"> Remember me
+                                                      </label>
+                                                  </div>
+                                                  <button class="btn btn-md btn-primary" type="submit">Submit</button>
+                                                  <br>
+                                                  <a class="text-info" href="StartCourse.php"><small>Please, read terms & condition carefully</small></a>
+                                              </form>
 
-                </div>
-            </div>
+
+                                  </div>
+                              </div>
+                              <!--END Modal / Enroll Request-->
             <!--END Modal / Enroll Request-->
         </div>
      </div>

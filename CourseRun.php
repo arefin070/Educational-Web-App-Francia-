@@ -65,7 +65,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 2</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -79,7 +79,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -118,18 +118,6 @@
     <div class="container" style="padding-top: 6%">
 
 				<!-- Demo Course Progress -->
-				<div class="card">
-													<div class="card-header bg-white">
-															<h4 class="card-title"><a href="student-take-course.html">Learn VueJs the easy way!</a></h4>
-															<small class="text-muted">Lessons: 3 of 8</small>
-													</div>
-													<div class="progress rounded-0">
-															<div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-													<div class="card-footer bg-white">
-															<a href="student-take-course.html" class="btn btn-primary btn-sm">Continue <i class="material-icons btn__icon--right"></i></a>
-													</div>
-											</div>
 
 				<!-- End of Course progress-->
 
@@ -140,7 +128,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-left">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
                         </div>
                         <div class="media-left">
                             <div class="text-left">
@@ -154,7 +142,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -168,7 +156,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html">Lesson 1</a>
+                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">

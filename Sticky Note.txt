@@ -1,0 +1,7 @@
+Francia Website 
+1. Lesson Page reformation [ok] ... Design
+2. Quiz page finalization [ok] ... Design
+3. Enrollment request form reformation [ok]
+4. Sign Up page reformation [ok]
+5. Un Authorize Enroll page [ok]
+6. User Profile (from Model/github)
