@@ -11,7 +11,7 @@
 
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <li class="nav-item dropdown active show">
+          <!--     <li class="nav-item dropdown active show">
                   <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Profile</a>
                   <ul class="dropdown-menu show">
 
@@ -22,7 +22,8 @@
                       <li role="separator" class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#"><i class="ion ion-log-out"></i> Sign out</a></li>
                   </ul>
-              </li>
+              </li> -->
+
             <a class="btn btn-outline-success my-2 my-sm-0" href="LogInDemo.php" >Log In</a>
             <a class="btn btn-success my-2 my-sm-0" href="SignUp.php">Sign Up</a>
 

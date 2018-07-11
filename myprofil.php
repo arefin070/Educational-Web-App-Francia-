@@ -13,64 +13,205 @@
 
     <div class="container">
 
-        <div class="form-wrapper">
-
-
-            <h2>
-                Profile
-            </h2>
-
-
-
-
-            <h3>
-                Add information about yourself to share on your profile.
-            </h3>
-
-
-
-
-
-            <form action="https://www.udemy.com/user/edit-profile/" method="post" class="ng-pristine ng-valid"> <input type="hidden" name="csrfmiddlewaretoken" value="6wcqEUSWIfOSv73IPMyELWcV6wWU37mDprpWvs0OmSZbvMrrVbeKk8FzH1aqxOkN" autocomplete="off"> <div class="manage-fields-wrapper sectioned"> <div class="form-field-container  labeled form-section" id="form-item-name"> <label class="control-label " for="id_name">Basics:</label> <div id="tooltip-reference-name" class="tooltip-reference pos-r "> <input class="textinput textInput form-control" id="id_name" maxlength="64" name="name" placeholder="First Name" type="text" value="Muzahidul" required=""> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-surname"> <div id="tooltip-reference-surname" class="tooltip-reference pos-r "> <input class="textinput textInput form-control" id="id_surname" maxlength="64" name="surname" placeholder="Last Name" type="text" value="Islam" required=""> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-job_title"> <div id="tooltip-reference-job_title" class="tooltip-reference pos-r "> <div class="ud-app-loader ud-component--form-fields--form-control-with-counter ud-app-loaded" data-module-id="form-fields" ng-non-bindable=""><div data-reactroot="" class="form-control-counter-container"><input type="text" maxlength="60" name="job_title" placeholder="Headline" id="id_job_title" class="textinput textInput form-control form-control" value=""><div class="form-control-counter" data-purpose="form-control-counter">60</div></div></div> <div class="help-block">Add a professional headline like, 'Engineer at Udemy' or 'Architect.'</div> </div>
-                    </div> <div class="form-field-container  labeled form-section" id="form-item-description"> <label class="control-label " for="id_description">Biography:</label> <div id="tooltip-reference-description" class="tooltip-reference pos-r "> <div class="ud-app-loader ud-component--form-fields--rich-textarea ud-app-loaded" data-module-id="form-fields" ng-non-bindable=""><div class="redactor-box" role="application" dir="ltr"><ul class="redactor-toolbar" id="redactor-toolbar-0" role="toolbar" style="position: relative; width: auto; top: 0px; left: 0px; visibility: visible;"><li><a href="javascript:void(null);" class="re-button re-bold" title="Bold" rel="bold" role="button" aria-label="Bold" tabindex="-1"><i class="udi udi-bold"></i></a></li><li><a href="javascript:void(null);" class="re-button re-italic" title="Italic" rel="italic" role="button" aria-label="Italic" tabindex="-1"><i class="udi udi-italic"></i></a></li></ul><span class="redactor-voice-label" id="redactor-voice-0" aria-hidden="false">Rich text editor</span><div class="redactor-editor redactor-editor-img-edit redactor-in" aria-labelledby="redactor-voice-0" role="presentation" id="redactor-uuid-0" contenteditable="true" dir="ltr" style="min-height: 40px;"><p>&#8203;</p></div><textarea data-reactroot="" name="description" style="display: none;"></textarea></div></div> <div class="help-block"><div>Links are not allowed here but are allowed in the link section below. Coupon codes are not permitted.</div><div>For instructors, your biography should have at least 50 words.</div></div> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-locale"> <div id="tooltip-reference-locale" class="tooltip-reference pos-r "> <select class="select form-control" id="id_locale" name="locale" required="">
-                                <option value="">-- Select Language --</option>
-                                <option value="de_DE">Deutsch</option>
-                                <option value="en_US" selected="selected">English (US)</option>
-                                <option value="es_ES">Español (España)</option>
-                                <option value="fr_FR">Français (France)</option>
-                                <option value="it_IT">Italiano</option>
-                                <option value="ja_JP">日本語</option>
-                                <option value="ko_KR">한국어</option>
-                                <option value="nl_NL">Nederlands</option>
-                                <option value="pl_PL">Polski</option>
-                                <option value="pt_BR">Português (Brasil)</option>
-                                <option value="ru_RU">Русский</option>
-                                <option value="tr_TR">Türkçe</option>
-                                <option value="zh_CN">中文(简体)</option>
-                                <option value="zh_TW">中文 (繁體)</option>
-                            </select> </div>
-                    </div> <div class="form-field-container  labeled form-section border-top" id="form-item-website_url"> <label class="control-label " for="id_website_url">Links:</label> <div id="tooltip-reference-website_url" class="tooltip-reference pos-r "> <input class="urlinput form-control" id="id_website_url" name="website_url" placeholder="Website (http(s)://..)" type="url"> </div>
-                    </div> <div class="form-field-container  non-labeled form-section " id="form-item-google_profile"> <div id="tooltip-reference-google_profile" class="tooltip-reference pos-r "> <div class="controls "> <div class="input-group"> <span class="input-group-addon">https://plus.google.com/</span> <input class="textinput textInput form-control" id="id_google_profile" maxlength="128" name="google_profile" placeholder="Google+ Link" type="text"> </div> </div> <div class="help-block">Add your Google+ profile name (e.g. +JohnSmith or 33338888789996)</div> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-twitter_profile"> <div id="tooltip-reference-twitter_profile" class="tooltip-reference pos-r "> <div class="controls "> <div class="input-group"> <span class="input-group-addon">http://twitter.com/</span> <input class="textinput textInput form-control" id="id_twitter_profile" maxlength="128" name="twitter_profile" placeholder="Twitter Profile" type="text"> </div> </div> <div class="help-block">Add your Twitter username (e.g. johnsmith).</div> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-facebook_profile"> <div id="tooltip-reference-facebook_profile" class="tooltip-reference pos-r "> <div class="controls "> <div class="input-group"> <span class="input-group-addon">http://www.facebook.com/</span> <input class="textinput textInput form-control" id="id_facebook_profile" maxlength="128" name="facebook_profile" placeholder="Facebook Profile" type="text"> </div> </div> <div class="help-block">Input your Facebook username (e.g. johnsmith).</div> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-linkedin_profile"> <div id="tooltip-reference-linkedin_profile" class="tooltip-reference pos-r "> <div class="controls "> <div class="input-group"> <span class="input-group-addon">http://www.linkedin.com/</span> <input class="textinput textInput form-control" id="id_linkedin_profile" maxlength="128" name="linkedin_profile" placeholder="LinkedIn Profile" type="text"> </div> </div> <div class="help-block">Input your LinkedIn resource id (e.g. in/johnsmith).</div> </div>
-                    </div> <div class="form-field-container  non-labeled form-section" id="form-item-youtube_profile"> <div id="tooltip-reference-youtube_profile" class="tooltip-reference pos-r "> <div class="controls "> <div class="input-group"> <span class="input-group-addon">http://www.youtube.com/</span> <input class="textinput textInput form-control" id="id_youtube_profile" maxlength="128" name="youtube_profile" placeholder="Youtube Profile" type="text"> </div> </div> <div class="help-block">Input your Youtube username (e.g. johnsmith).</div> </div>
+      <div class="row">
+              <div class="col-md-4 order-md-2 mb-4">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="text-muted">Your cart</span>
+                  <span class="badge badge-secondary badge-pill">3</span>
+                </h4>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Product name</h6>
+                      <small class="text-muted">Brief description</small>
                     </div>
-
-                </div>
-                <div class="form-actions"> <div class="submit-row"> <input type="submit" name="submit" value="Save" class="btn btn-primary " id="submit-id-submit">
-
+                    <span class="text-muted">$12</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Second product</h6>
+                      <small class="text-muted">Brief description</small>
                     </div>
+                    <span class="text-muted">$8</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                      <h6 class="my-0">Third item</h6>
+                      <small class="text-muted">Brief description</small>
+                    </div>
+                    <span class="text-muted">$5</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                      <h6 class="my-0">Promo code</h6>
+                      <small>EXAMPLECODE</small>
+                    </div>
+                    <span class="text-success">-$5</span>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (USD)</span>
+                    <strong>$20</strong>
+                  </li>
+                </ul>
 
-                </div> <input id="id_ignore_warnings" name="ignore_warnings" type="hidden" value="False" autocomplete="off"> </form>
+                <form class="card p-2">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-secondary">Redeem</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-8 order-md-1">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="firstName">First name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid first name is required.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                      <div class="invalid-feedback">
+                        Valid last name is required.
+                      </div>
+                    </div>
+                  </div>
 
+                  <div class="mb-3">
+                    <label for="username">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                      </div>
+                      <input type="text" class="form-control" id="username" placeholder="Username" required="">
+                      <div class="invalid-feedback" style="width: 100%;">
+                        Your username is required.
+                      </div>
+                    </div>
+                  </div>
 
-        </div>
+                  <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
 
-    </div>
+                  <div class="mb-3">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+                    <div class="invalid-feedback">
+                      Please enter your shipping address.
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                    <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-5 mb-3">
+                      <label for="country">Country</label>
+                      <select class="custom-select d-block w-100" id="country" required="">
+                        <option value="">Choose...</option>
+                        <option>United States</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please select a valid country.
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label for="state">State</label>
+                      <select class="custom-select d-block w-100" id="state" required="">
+                        <option value="">Choose...</option>
+                        <option>California</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="zip">Zip</label>
+                      <input type="text" class="form-control" id="zip" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        Zip code required.
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mb-4">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                  </div>
+                  <hr class="mb-4">
+
+                  <h4 class="mb-3">Payment</h4>
+
+                  <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                      <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                      <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                      <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                      <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                      <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-name">Name on card</label>
+                      <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                      <small class="text-muted">Full name as displayed on card</small>
+                      <div class="invalid-feedback">
+                        Name on card is required
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="cc-number">Credit card number</label>
+                      <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        Credit card number is required
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-expiration">Expiration</label>
+                      <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        Expiration date required
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="cc-cvv">CVV</label>
+                      <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                      <div class="invalid-feedback">
+                        Security code required
+                      </div>
+                    </div>
+                  </div>
+                  <hr class="mb-4">
+                  <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+                </form>
+              </div>
+            </div>
+        
 
 </main>
 
@@ -81,4 +222,3 @@
 <?php include 'footer.php'; ?>
 </body>
 </html>
-
