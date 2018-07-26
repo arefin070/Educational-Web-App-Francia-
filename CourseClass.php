@@ -5,7 +5,7 @@
 
 <body>
 
-	<?php include 'navbar.php'; ?>
+<?php include 'navbar.php'; ?>
 
 
 
@@ -96,30 +96,30 @@
 
     <!-- Quiz -->
     <div class="container" style="padding-top: 4%">
-    <div class="card card-stats-primary">
-        <div class="card-body">
-            <div class="media align-items-center">
-                <div class="media-left">
-                    <i class="material-icons text-muted-light">credit_card</i>
-                </div>
-                <div class="media-body">
-                    Your subscription ends on <strong>25 February 2015</strong>
-                </div>
-                <div class="media-right">
-                    <img src="https://cdn.kastatic.org/images/mastery/UnitTestNotStarted.svg" style="width: 100px">
-                    <a class="btn btn-primary btn-md" href="quiz.php" > Start Quiz</a>
+        <div class="card card-stats-primary">
+            <div class="card-body">
+                <div class="media align-items-center">
+                    <div class="media-left">
+                        <i class="material-icons text-muted-light">credit_card</i>
+                    </div>
+                    <div class="media-body">
+                        Your subscription ends on <strong>25 February 2015</strong>
+                    </div>
+                    <div class="media-right">
+                        <img src="https://cdn.kastatic.org/images/mastery/UnitTestNotStarted.svg" style="width: 100px">
+                        <a class="btn btn-primary btn-md" href="quiz.php" > Start Quiz</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
 
     <div class="container" style="padding-top: 6%">
 
-				<!-- Demo Course Progress -->
+        <!-- Demo Course Progress -->
 
-				<!-- End of Course progress-->
+        <!-- End of Course progress-->
 
 
         <div class="card">
@@ -185,12 +185,12 @@
 
 
 
- </main>
+</main>
 
 
 
-	<?php include 'signinpop.php'; ?>
+<?php include 'signinpop.php'; ?>
 
-	<?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
 </body>
 </html>
