@@ -10,9 +10,9 @@
 
 
 <main role="main">
-    <div class="jumbotron" style="height: 200px" >
+    <div class="jumbotron" style="height: 200px; background-color: #94c045" >
         <div class="container" >
-            <h3 class="display-4">Francia Language Basic Courses</h3>
+            <h3 class="display-4">Francia Language Basic Courses <strong>[1/10]</strong></h3>
             <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         </div>
 
@@ -51,7 +51,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-left">
                         <div class="media-body">
-                            <a href="CourseSelected.php"> Lesson 1</a>
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 1</a>
                         </div>
                         <div class="media-left">
                             <div class="text-left">
@@ -63,9 +63,80 @@
                     </div>
                 </li>
                 <li class="list-group-item">
+                    <div class="media align-items-left">
+                        <div class="media-body">
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 2</a>
+                        </div>
+                        <div class="media-left">
+                            <div class="text-left">
+                                <div class="mb-1">
+                                    <i class="material-icons text-muted-light">This lesson will guide you to develop Francian language</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media align-items-left">
+                        <div class="media-body">
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 3</a>
+                        </div>
+                        <div class="media-left">
+                            <div class="text-left">
+                                <div class="mb-1">
+                                    <i class="material-icons text-muted-light">This lesson will guide you to develop Francian language</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media align-items-left">
+                        <div class="media-body">
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 4</a>
+                        </div>
+                        <div class="media-left">
+                            <div class="text-left">
+                                <div class="mb-1">
+                                    <i class="material-icons text-muted-light">This lesson will guide you to develop Francian language</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media align-items-left">
+                        <div class="media-body">
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 5</a>
+                        </div>
+                        <div class="media-left">
+                            <div class="text-left">
+                                <div class="mb-1">
+                                    <i class="material-icons text-muted-light">This lesson will guide you to develop Francian language</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media align-items-left">
+                        <div class="media-body">
+                            <i class="far fa-play-circle"></i> <a href="CourseSelected.php"> Lesson 6</a>
+                        </div>
+                        <div class="media-left">
+                            <div class="text-left">
+                                <div class="mb-1">
+                                    <i class="material-icons text-muted-light">This lesson will guide you to develop Francian language</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 2</a>
+                            <i class="far fa-play-circle"></i> <a href="student-take-course.html">Lesson 7</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -79,7 +150,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
+                            <i class="far fa-play-circle"></i> <a href="student-take-course.html">Lesson 8</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -91,44 +162,11 @@
                     </div>
                 </li>
             </ul>
-        </div>
-    </div>
-
-    <!-- Quiz -->
-    <div class="container" style="padding-top: 4%">
-    <div class="card card-stats-primary">
-        <div class="card-body">
-            <div class="media align-items-center">
-                <div class="media-left">
-                    <i class="material-icons text-muted-light">credit_card</i>
-                </div>
-                <div class="media-body">
-                    Your subscription ends on <strong>25 February 2015</strong>
-                </div>
-                <div class="media-right">
-                    <img src="https://cdn.kastatic.org/images/mastery/UnitTestNotStarted.svg" style="width: 100px">
-                    <a class="btn btn-primary btn-md" href="quiz.php" > Start Quiz</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-
-
-    <div class="container" style="padding-top: 6%">
-
-				<!-- Demo Course Progress -->
-
-				<!-- End of Course progress-->
-
-
-        <div class="card">
-
             <ul class="list-group list-group-fit mb-0">
                 <li class="list-group-item">
                     <div class="media align-items-left">
                         <div class="media-body">
-                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
+                            <i class="far fa-play-circle"></i> <a href="student-take-course.html">Lesson 9</a>
                         </div>
                         <div class="media-left">
                             <div class="text-left">
@@ -142,7 +180,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
+                            <i class="far fa-play-circle"></i> <a href="student-take-course.html">Lesson 10</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -156,7 +194,7 @@
                 <li class="list-group-item">
                     <div class="media align-items-center">
                         <div class="media-body">
-                            <a href="student-take-course.html"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>Lesson 1</a>
+                            <i class="far fa-play-circle"></i> <a href="student-take-course.html"></span>Lesson 11</a>
                         </div>
                         <div class="media-center">
                             <div class="text-center">
@@ -170,6 +208,11 @@
             </ul>
         </div>
     </div>
+
+
+
+
+
 
     <!-- End Quiz -->
 
